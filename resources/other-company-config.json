@@ -18,6 +18,15 @@
         }
     },
     {
+        "id": "ccrt",
+        "name": {
+            "en": "Changchun Rail Transit",
+            "zh-Hans": "长春轨道交通",
+            "zh-Hant": "長春軌道交通",
+            "ko": "창춘 지하철"
+        }
+    },
+    {
         "id": "chengdumetro",
         "name": {
             "en": "Chengdu Metro",
@@ -33,6 +42,15 @@
             "ko": "충칭 지하철",
             "zh-Hans": "重庆轨道交通",
             "zh-Hant": "重慶軌道交通"
+        }
+    },
+    {
+        "id": "czmetro",
+        "name": {
+            "en": "Changzhou Metro",
+            "zh-Hans": "常州轨道交通",
+            "zh-Hant": "常州軌道交通",
+            "ko": "창저우 지하철"
         }
     },
     {
@@ -72,6 +90,32 @@
         }
     },
     {
+        "id": "guiyang",
+        "name": {
+            "en": "Guiyang Metro",
+            "zh-Hans": "贵阳地铁",
+            "zh-Hant": "貴陽地鐵"
+        }
+    },
+    {
+        "id": "hhhtmetro",
+        "name": {
+            "en": "Hohhot Metro",
+            "zh-Hans": "呼和浩特地铁",
+            "zh-Hant": "呼和浩特地鐵",
+            "ko": "후허하오터 지하철"
+        }
+    },
+    {
+        "id": "hncsmtr",
+        "name": {
+            "en": "Changsha Metro",
+            "zh-Hans": "长沙地铁",
+            "zh-Hant": "長沙地鐵",
+            "ko": "창사 메트로"
+        }
+    },
+    {
         "id": "hrbmetro",
         "name": {
             "en": "Harbin Metro",
@@ -87,6 +131,15 @@
             "ko": "부산 도시철도",
             "zh-Hans": "釜山交通公社",
             "zh-Hant": "釜山交通公社"
+        }
+    },
+    {
+        "id": "jinan",
+        "name": {
+            "en": "Jinan Metro",
+            "zh-Hans": "济南地铁",
+            "zh-Hant": "濟南地鐵",
+            "ko": "제남 지하철"
         }
     },
     {
@@ -142,12 +195,30 @@
         }
     },
     {
+        "id": "ncmtr",
+        "name": {
+            "en": "Nanchang Metro",
+            "zh-Hans": "南昌地铁",
+            "zh-Hant": "南昌地鐵",
+            "ko": "난창 지하철"
+        }
+    },
+    {
         "id": "njmetro",
         "name": {
             "en": "Nanjing Metro",
             "ko": "난징 지하철",
             "zh-Hans": "南京地铁",
             "zh-Hant": "南京地鐵"
+        }
+    },
+    {
+        "id": "ntrailway",
+        "name": {
+            "en": "Nantong Rail Transit",
+            "zh-Hans": "南通轨道交通",
+            "zh-Hant": "南通軌道交通",
+            "ko": "난퉁 지하철"
         }
     },
     {
@@ -246,6 +317,15 @@
             "ko": "우한 지하철",
             "zh-Hans": "武汉地铁",
             "zh-Hant": "武漢地鐵"
+        }
+    },
+    {
+        "id": "xianrail",
+        "name": {
+            "en": "Xi'an Metro",
+            "zh-Hans": "西安地铁",
+            "zh-Hant": "西安地鐵",
+            "ko": "서안 지하철"
         }
     },
     {

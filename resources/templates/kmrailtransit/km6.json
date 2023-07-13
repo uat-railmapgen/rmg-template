@@ -1,18 +1,17 @@
 {
-    "style": "gzmtr",
-    "svg_height": 300,
-    "padding": 10,
-    "y_pc": 40,
-    "branch_spacing": 60,
+    "style": "shmetro",
+    "svg_height": 450,
+    "padding": 8,
+    "y_pc": 41,
     "theme": [
         "kunming",
         "km6",
-        "#3D89A8",
+        "#048F92",
         "#fff"
     ],
     "direction": "l",
-    "current_stn_idx": "iwf6",
-    "platform_num": "4",
+    "current_stn_idx": "lp3f",
+    "platform_num": "",
     "stn_list": {
         "linestart": {
             "parents": [],
@@ -30,9 +29,10 @@
             "transfer": {
                 "tick_direc": "r",
                 "paid_area": true,
-                "osi_names": [],
-                "info": [
-                    []
+                "groups": [
+                    {
+                        "lines": []
+                    }
                 ]
             },
             "services": [
@@ -40,7 +40,10 @@
             ],
             "facility": "",
             "num": "09",
-            "secondaryName": false
+            "secondaryName": false,
+            "loop_pivot": false,
+            "one_line": false,
+            "int_padding": 225
         },
         "lineend": {
             "parents": [
@@ -58,9 +61,10 @@
             "transfer": {
                 "tick_direc": "r",
                 "paid_area": true,
-                "osi_names": [],
-                "info": [
-                    []
+                "groups": [
+                    {
+                        "lines": []
+                    }
                 ]
             },
             "services": [
@@ -68,7 +72,10 @@
             ],
             "facility": "",
             "num": "00",
-            "secondaryName": false
+            "secondaryName": false,
+            "loop_pivot": false,
+            "one_line": false,
+            "int_padding": 225
         },
         "l1mz": {
             "parents": [
@@ -79,7 +86,7 @@
             ],
             "name": [
                 "机场中心",
-                "Kunming Airport"
+                "KUNMING Airport"
             ],
             "branch": {
                 "left": [],
@@ -89,16 +96,23 @@
             "transfer": {
                 "tick_direc": "r",
                 "paid_area": true,
-                "osi_names": [],
-                "info": [
-                    []
+                "groups": [
+                    {
+                        "lines": []
+                    }
                 ]
             },
             "services": [
                 "local"
             ],
             "facility": "airport",
-            "secondaryName": false
+            "secondaryName": [
+                "长水机场",
+                ""
+            ],
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 225
         },
         "iwf6": {
             "children": [
@@ -109,7 +123,7 @@
             ],
             "name": [
                 "塘子巷",
-                "Tangzixiang"
+                "TANGZIXIANG"
             ],
             "branch": {
                 "left": [],
@@ -119,30 +133,38 @@
             "transfer": {
                 "tick_direc": "r",
                 "paid_area": true,
-                "osi_names": [],
-                "info": [
-                    [
-                        [
-                            "kunming",
-                            "km2",
-                            "#235A99",
-                            "#fff",
-                            "2号线",
-                            "Line 2"
+                "groups": [
+                    {
+                        "lines": [
+                            {
+                                "theme": [
+                                    "kunming",
+                                    "km2",
+                                    "#03619e",
+                                    "#fff"
+                                ],
+                                "name": [
+                                    "2号线",
+                                    "Line 2"
+                                ]
+                            }
                         ]
-                    ]
+                    }
                 ]
             },
             "services": [
                 "local"
             ],
             "facility": "",
-            "secondaryName": false
+            "secondaryName": false,
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 175
         },
         "lp3f": {
             "name": [
                 "岔街",
-                "Chajie"
+                "CHAJIE"
             ],
             "secondaryName": false,
             "num": "02",
@@ -160,19 +182,23 @@
                 "right": []
             },
             "transfer": {
-                "info": [
-                    []
-                ],
                 "tick_direc": "r",
                 "paid_area": true,
-                "osi_names": []
+                "groups": [
+                    {
+                        "lines": []
+                    }
+                ]
             },
-            "facility": ""
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 225
         },
         "b4un": {
             "name": [
                 "东郊路",
-                "Dongjiao Rd."
+                "DONGJIAO RD."
             ],
             "secondaryName": false,
             "num": "03",
@@ -190,19 +216,23 @@
                 "right": []
             },
             "transfer": {
-                "info": [
-                    []
-                ],
                 "tick_direc": "r",
                 "paid_area": true,
-                "osi_names": []
+                "groups": [
+                    {
+                        "lines": []
+                    }
+                ]
             },
-            "facility": ""
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 225
         },
         "opbi": {
             "name": [
                 "菊华",
-                "Juhua"
+                "JUHUA"
             ],
             "secondaryName": false,
             "num": "04",
@@ -220,23 +250,31 @@
                 "right": []
             },
             "transfer": {
-                "info": [
-                    [
-                        [
-                            "kunming",
-                            "km4",
-                            "#EE7C30",
-                            "#fff",
-                            "4号线",
-                            "Line 4"
-                        ]
-                    ]
-                ],
                 "tick_direc": "r",
                 "paid_area": true,
-                "osi_names": []
+                "groups": [
+                    {
+                        "lines": [
+                            {
+                                "theme": [
+                                    "kunming",
+                                    "km4",
+                                    "#f09c22",
+                                    "#fff"
+                                ],
+                                "name": [
+                                    "4号线",
+                                    "Line 4"
+                                ]
+                            }
+                        ]
+                    }
+                ]
             },
-            "facility": ""
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 225
         },
         "2w14": {
             "name": [
@@ -259,28 +297,36 @@
                 "right": []
             },
             "transfer": {
-                "info": [
-                    [
-                        [
-                            "kunming",
-                            "km3",
-                            "#D02E81",
-                            "#fff",
-                            "3号线",
-                            "Line 3"
-                        ]
-                    ]
-                ],
                 "tick_direc": "r",
                 "paid_area": true,
-                "osi_names": []
+                "groups": [
+                    {
+                        "lines": [
+                            {
+                                "theme": [
+                                    "kunming",
+                                    "km3",
+                                    "#a13187",
+                                    "#fff"
+                                ],
+                                "name": [
+                                    "3号线",
+                                    "Line 3"
+                                ]
+                            }
+                        ]
+                    }
+                ]
             },
-            "facility": ""
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 225
         },
         "aa5c": {
             "name": [
                 "大板桥",
-                "Dabanqiao"
+                "DABANQIAO"
             ],
             "secondaryName": false,
             "num": "06",
@@ -298,14 +344,18 @@
                 "right": []
             },
             "transfer": {
-                "info": [
-                    []
-                ],
                 "tick_direc": "r",
                 "paid_area": true,
-                "osi_names": []
+                "groups": [
+                    {
+                        "lines": []
+                    }
+                ]
             },
-            "facility": ""
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 225
         },
         "svfu": {
             "name": [
@@ -328,23 +378,27 @@
                 "right": []
             },
             "transfer": {
-                "info": [
-                    []
-                ],
                 "tick_direc": "r",
                 "paid_area": true,
-                "osi_names": []
+                "groups": [
+                    {
+                        "lines": []
+                    }
+                ]
             },
-            "facility": ""
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 225
         }
     },
     "line_name": [
         "6号线",
         "Line 6"
     ],
-    "psd_num": "12",
-    "line_num": "6",
-    "info_panel_type": "gzgf",
+    "psd_num": "",
+    "line_num": "",
+    "info_panel_type": "sh2020",
     "direction_gz_x": 50,
     "direction_gz_y": 70,
     "customiseMTRDest": {
@@ -352,14 +406,22 @@
         "terminal": false
     },
     "svgWidth": {
-        "destination": 1420,
-        "runin": 1130,
-        "railmap": 1420,
-        "indoor": 1420
+        "destination": 2250,
+        "runin": 1800,
+        "railmap": 2250,
+        "indoor": 4000
     },
     "notesGZMTR": [],
     "namePosMTR": {
         "isStagger": true,
         "isFlip": false
-    }
+    },
+    "coline": {},
+    "loop": false,
+    "loop_info": {
+        "bank": true,
+        "left_and_right_factor": 0,
+        "bottom_factor": 1
+    },
+    "branchSpacingPct": 40
 }
