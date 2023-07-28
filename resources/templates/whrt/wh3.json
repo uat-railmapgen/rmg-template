@@ -1,11 +1,11 @@
 {
     "svgWidth": {
-        "destination": 1200,
+        "destination": 2000,
         "runin": 2000,
-        "railmap": 1500,
-        "indoor": 1200
+        "railmap": 2000,
+        "indoor": 2000
     },
-    "svg_height": 800,
+    "svg_height": 450,
     "style": "shmetro",
     "y_pc": 50,
     "padding": 10,
@@ -13,16 +13,16 @@
     "direction": "l",
     "platform_num": "1",
     "theme": [
-        "seoul",
-        "seo",
-        "#81A914",
+        "wuhan",
+        "wh3",
+        "#D9B966",
         "#fff"
     ],
     "line_name": [
-        "西海线",
-        "Seo Hae Line"
+        "3号线",
+        "Line 3"
     ],
-    "current_stn_idx": "IW6Du1",
+    "current_stn_idx": "69rgJC",
     "stn_list": {
         "linestart": {
             "name": [
@@ -36,101 +36,113 @@
             ],
             "parents": [],
             "children": [
-                "foCv-Z"
+                "iQ-st5"
             ],
             "branch": {
                 "left": [],
                 "right": []
             },
             "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
                 "groups": [
                     {
                         "lines": []
                     }
-                ]
+                ],
+                "tick_direc": "r",
+                "paid_area": true
             },
             "facility": "",
             "loop_pivot": false,
             "one_line": true,
             "int_padding": 355
         },
-        "rULbf_": {
+        "iQ-st5": {
             "name": [
-                "素砂",
-                "소사 （서울신대) \\Sosa"
+                "宏图大道",
+                "Hongtu Boulevard"
             ],
             "secondaryName": false,
-            "num": "16",
+            "num": "01",
             "services": [
                 "local"
             ],
             "parents": [
-                "hdVcug"
+                "linestart"
             ],
             "children": [
-                "yRTeq2"
+                "oSZLTN"
             ],
             "branch": {
                 "left": [],
                 "right": []
             },
             "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
                 "groups": [
                     {
                         "lines": [
                             {
                                 "theme": [
-                                    "seoul",
-                                    "su1",
-                                    "#0d3692",
+                                    "wuhan",
+                                    "wh2",
+                                    "#EB7CAF",
                                     "#fff"
                                 ],
                                 "name": [
-                                    "1호선",
-                                    "Line 1"
+                                    "2号线",
+                                    "Line 2"
+                                ]
+                            },
+                            {
+                                "theme": [
+                                    "wuhan",
+                                    "wh8",
+                                    "#98ACAB",
+                                    "#fff"
+                                ],
+                                "name": [
+                                    "8号线",
+                                    "Line 8"
                                 ]
                             }
                         ]
                     }
-                ]
+                ],
+                "tick_direc": "r",
+                "paid_area": true
             },
             "facility": "",
             "loop_pivot": false,
             "one_line": true,
             "int_padding": 355
         },
-        "yRTeq2": {
+        "WvFafl": {
             "name": [
-                "素砂屋",
-                "소새울 \\Sosaeul"
+                "沌阳大道",
+                "Zhuanyang Boulevard"
             ],
             "secondaryName": false,
-            "num": "17",
+            "num": "02",
             "services": [
                 "local"
             ],
             "parents": [
-                "rULbf_"
+                "90KcLF"
             ],
             "children": [
-                "4bABWy"
+                "lineend"
             ],
             "branch": {
                 "left": [],
                 "right": []
             },
             "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
                 "groups": [
                     {
                         "lines": []
                     }
-                ]
+                ],
+                "tick_direc": "r",
+                "paid_area": true
             },
             "facility": "",
             "loop_pivot": false,
@@ -148,7 +160,7 @@
                 "local"
             ],
             "parents": [
-                "fk8CDG"
+                "WvFafl"
             ],
             "children": [],
             "branch": {
@@ -156,401 +168,253 @@
                 "right": []
             },
             "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
                 "groups": [
                     {
                         "lines": []
                     }
-                ]
+                ],
+                "tick_direc": "r",
+                "paid_area": true
             },
             "facility": "",
             "loop_pivot": false,
             "one_line": true,
             "int_padding": 355
         },
-        "fk8CDG": {
+        "oSZLTN": {
             "name": [
-                "元时",
-                "원시 \\Wonsi"
+                "市民之家",
+                "Citzens Home"
             ],
             "secondaryName": false,
-            "num": "27",
+            "num": "00",
             "services": [
                 "local"
             ],
             "parents": [
-                "i4_6Gp"
+                "iQ-st5"
             ],
             "children": [
-                "lineend"
+                "rYidL_"
             ],
             "branch": {
                 "left": [],
                 "right": []
             },
             "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
                 "groups": [
                     {
                         "lines": []
                     }
-                ]
+                ],
+                "tick_direc": "r",
+                "paid_area": true
             },
             "facility": "",
             "loop_pivot": false,
             "one_line": true,
             "int_padding": 355
         },
-        "i4_6Gp": {
+        "rYidL_": {
             "name": [
-                "时雨",
-                "시우 \\Siu"
+                "后湖大道",
+                "Houhu Boulevard"
             ],
             "secondaryName": false,
-            "num": "26",
+            "num": "00",
             "services": [
                 "local"
             ],
             "parents": [
-                "v_L4c8"
+                "oSZLTN"
             ],
             "children": [
-                "fk8CDG"
+                "QAwvJ5"
             ],
             "branch": {
                 "left": [],
                 "right": []
             },
             "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
-                "groups": [
-                    {
-                        "lines": []
-                    }
-                ]
-            },
-            "facility": "",
-            "loop_pivot": false,
-            "one_line": true,
-            "int_padding": 355
-        },
-        "v_L4c8": {
-            "name": [
-                "草芝(新安山大学）",
-                "초지(신안산대) \\Choji(Shin Ansan Univ.)"
-            ],
-            "secondaryName": false,
-            "num": "25",
-            "services": [
-                "local"
-            ],
-            "parents": [
-                "7KEsV_"
-            ],
-            "children": [
-                "i4_6Gp"
-            ],
-            "branch": {
-                "left": [],
-                "right": []
-            },
-            "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
                 "groups": [
                     {
                         "lines": [
                             {
                                 "theme": [
-                                    "seoul",
-                                    "su4",
-                                    "#32a1c8",
+                                    "wuhan",
+                                    "wh21",
+                                    "#CF0192",
                                     "#fff"
                                 ],
                                 "name": [
-                                    "4호선",
-                                    "Line 4"
-                                ]
-                            },
-                            {
-                                "theme": [
-                                    "seoul",
-                                    "bun",
-                                    "#F5A200",
-                                    "#000"
-                                ],
-                                "name": [
-                                    "수인·분당선",
-                                    "Suin-Bundang Line"
+                                    "阳逻线",
+                                    "Yangluo Line"
                                 ]
                             }
                         ]
                     }
-                ]
+                ],
+                "tick_direc": "r",
+                "paid_area": true
             },
             "facility": "",
             "loop_pivot": false,
             "one_line": true,
             "int_padding": 355
         },
-        "7KEsV_": {
+        "QAwvJ5": {
             "name": [
-                "仙府",
-                "선부 （한도병원） \\Seonbu"
+                "兴业路",
+                "Xingye Road"
             ],
             "secondaryName": false,
-            "num": "24",
+            "num": "00",
             "services": [
                 "local"
             ],
             "parents": [
-                "WFHOTH"
+                "rYidL_"
             ],
             "children": [
-                "v_L4c8"
+                "Lejw-x"
             ],
             "branch": {
                 "left": [],
                 "right": []
             },
             "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
                 "groups": [
                     {
                         "lines": []
                     }
-                ]
+                ],
+                "tick_direc": "r",
+                "paid_area": true
             },
             "facility": "",
             "loop_pivot": false,
             "one_line": true,
             "int_padding": 355
         },
-        "WFHOTH": {
+        "Lejw-x": {
             "name": [
-                "达美",
-                "달미 \\Dalmi"
+                "二七小路",
+                "Erqi Branch Road"
             ],
             "secondaryName": false,
-            "num": "23",
+            "num": "00",
             "services": [
                 "local"
             ],
             "parents": [
-                "wxG8jG"
+                "QAwvJ5"
             ],
             "children": [
-                "7KEsV_"
+                "BL3GU4"
             ],
             "branch": {
                 "left": [],
                 "right": []
             },
             "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
                 "groups": [
                     {
                         "lines": []
                     }
-                ]
+                ],
+                "tick_direc": "r",
+                "paid_area": true
             },
             "facility": "",
             "loop_pivot": false,
             "one_line": true,
             "int_padding": 355
         },
-        "wxG8jG": {
+        "BL3GU4": {
             "name": [
-                "始兴陵谷\t",
-                "시흥능곡 \\Siheung-Neunggok"
+                "罗家庄",
+                "Luojiazhuang"
             ],
             "secondaryName": false,
-            "num": "22",
+            "num": "00",
             "services": [
                 "local"
             ],
             "parents": [
-                "aU6UcP"
+                "Lejw-x"
             ],
             "children": [
-                "WFHOTH"
+                "UxtwPo"
             ],
             "branch": {
                 "left": [],
                 "right": []
             },
             "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
                 "groups": [
                     {
                         "lines": []
                     }
-                ]
+                ],
+                "tick_direc": "r",
+                "paid_area": true
             },
             "facility": "",
             "loop_pivot": false,
             "one_line": true,
             "int_padding": 355
         },
-        "aU6UcP": {
+        "UxtwPo": {
             "name": [
-                "始兴市厅",
-                "시흥시청 \\Siheung City Hall"
+                "赵家条",
+                "Zhaojiatiao"
             ],
             "secondaryName": false,
-            "num": "21",
+            "num": "00",
             "services": [
                 "local"
             ],
             "parents": [
-                "73-kUJ"
+                "BL3GU4"
             ],
             "children": [
-                "wxG8jG"
+                "RKN8wo"
             ],
             "branch": {
                 "left": [],
                 "right": []
             },
             "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
                 "groups": [
                     {
                         "lines": [
                             {
                                 "theme": [
-                                    "seoul",
-                                    "gg",
-                                    "#004fa2",
+                                    "wuhan",
+                                    "wh8",
+                                    "#98ACAB",
                                     "#fff"
                                 ],
                                 "name": [
-                                    "경강선",
-                                    "Gyeonggang Line"
+                                    "8号线",
+                                    "Line 8"
                                 ]
                             }
                         ]
                     }
-                ]
-            },
-            "facility": "",
-            "loop_pivot": false,
-            "one_line": true,
-            "int_padding": 355
-        },
-        "73-kUJ": {
-            "name": [
-                "新岘",
-                "신현 \\Sinhyeon"
-            ],
-            "secondaryName": false,
-            "num": "20",
-            "services": [
-                "local"
-            ],
-            "parents": [
-                "O63AOS"
-            ],
-            "children": [
-                "aU6UcP"
-            ],
-            "branch": {
-                "left": [],
-                "right": []
-            },
-            "transfer": {
+                ],
                 "tick_direc": "r",
-                "paid_area": true,
-                "groups": [
-                    {
-                        "lines": []
-                    }
-                ]
+                "paid_area": true
             },
             "facility": "",
             "loop_pivot": false,
             "one_line": true,
             "int_padding": 355
         },
-        "O63AOS": {
+        "RKN8wo": {
             "name": [
-                "新川",
-                "신천 \\Sincheon"
-            ],
-            "secondaryName": false,
-            "num": "19",
-            "services": [
-                "local"
-            ],
-            "parents": [
-                "4bABWy"
-            ],
-            "children": [
-                "73-kUJ"
-            ],
-            "branch": {
-                "left": [],
-                "right": []
-            },
-            "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
-                "groups": [
-                    {
-                        "lines": []
-                    }
-                ]
-            },
-            "facility": "",
-            "loop_pivot": false,
-            "one_line": true,
-            "int_padding": 355
-        },
-        "4bABWy": {
-            "name": [
-                "始兴大也\t",
-                "시흥대야 \\Siheung Daeya"
-            ],
-            "secondaryName": false,
-            "num": "18",
-            "services": [
-                "local"
-            ],
-            "parents": [
-                "yRTeq2"
-            ],
-            "children": [
-                "O63AOS"
-            ],
-            "branch": {
-                "left": [],
-                "right": []
-            },
-            "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
-                "groups": [
-                    {
-                        "lines": []
-                    }
-                ]
-            },
-            "facility": "",
-            "loop_pivot": false,
-            "one_line": true,
-            "int_padding": 355
-        },
-        "k8hbcR": {
-            "name": [
-                "谷山",
-                "곡산 \\Goksan"
+                "惠济二路",
+                "Huiji 2nd Road"
             ],
             "secondaryName": false,
             "num": "00",
@@ -558,33 +422,33 @@
                 "local"
             ],
             "parents": [
-                "LG3Ten"
+                "UxtwPo"
             ],
             "children": [
-                "rGOfUW"
+                "EAOCMT"
             ],
             "branch": {
                 "left": [],
                 "right": []
             },
             "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
                 "groups": [
                     {
                         "lines": []
                     }
-                ]
+                ],
+                "tick_direc": "r",
+                "paid_area": true
             },
             "facility": "",
             "loop_pivot": false,
             "one_line": true,
             "int_padding": 355
         },
-        "rGOfUW": {
+        "EAOCMT": {
             "name": [
-                "大谷",
-                "대곡 \\Daegok"
+                "香港路",
+                "Xianggang Road"
             ],
             "secondaryName": false,
             "num": "00",
@@ -592,244 +456,58 @@
                 "local"
             ],
             "parents": [
-                "k8hbcR"
+                "RKN8wo"
             ],
             "children": [
-                "6BmnCT"
+                "Ov7tMc"
             ],
             "branch": {
                 "left": [],
                 "right": []
             },
             "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
                 "groups": [
                     {
                         "lines": [
                             {
                                 "theme": [
-                                    "seoul",
-                                    "su3",
-                                    "#fe5b10",
+                                    "wuhan",
+                                    "wh6",
+                                    "#008536",
                                     "#fff"
                                 ],
                                 "name": [
-                                    "3호선",
-                                    "Line 3"
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            "facility": "",
-            "loop_pivot": false,
-            "one_line": true,
-            "int_padding": 355
-        },
-        "6BmnCT": {
-            "name": [
-                "陵谷",
-                "능곡 \\Neunggok"
-            ],
-            "secondaryName": false,
-            "num": "00",
-            "services": [
-                "local"
-            ],
-            "parents": [
-                "rGOfUW"
-            ],
-            "children": [
-                "IW6Du1"
-            ],
-            "branch": {
-                "left": [],
-                "right": []
-            },
-            "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
-                "groups": [
-                    {
-                        "lines": []
-                    }
-                ]
-            },
-            "facility": "",
-            "loop_pivot": false,
-            "one_line": true,
-            "int_padding": 355
-        },
-        "IW6Du1": {
-            "name": [
-                "金浦机场",
-                "김포공항 \\Gimpo Int'l Airport"
-            ],
-            "secondaryName": false,
-            "num": "00",
-            "services": [
-                "local"
-            ],
-            "parents": [
-                "6BmnCT"
-            ],
-            "children": [
-                "jVU1Bs"
-            ],
-            "branch": {
-                "left": [],
-                "right": []
-            },
-            "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
-                "groups": [
-                    {
-                        "lines": [
-                            {
-                                "theme": [
-                                    "seoul",
-                                    "su5",
-                                    "#8b50a4",
-                                    "#fff"
-                                ],
-                                "name": [
-                                    "5호선",
-                                    "Line 5"
+                                    "6号线",
+                                    "Line 6"
                                 ]
                             },
                             {
                                 "theme": [
-                                    "seoul",
-                                    "su9",
-                                    "#aa9872",
+                                    "wuhan",
+                                    "wh7",
+                                    "#EB7900",
                                     "#fff"
                                 ],
                                 "name": [
-                                    "9호선",
-                                    "Line 9"
-                                ]
-                            },
-                            {
-                                "theme": [
-                                    "seoul",
-                                    "arx",
-                                    "#3681b7",
-                                    "#fff"
-                                ],
-                                "name": [
-                                    "인천국제공항철도",
-                                    "Airport Railroad Express"
-                                ]
-                            },
-                            {
-                                "theme": [
-                                    "seoul",
-                                    "gim",
-                                    "#ad8605",
-                                    "#fff"
-                                ],
-                                "name": [
-                                    "김포 도시철도",
-                                    "Gimpo Goldline"
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            "facility": "",
-            "loop_pivot": false,
-            "one_line": true,
-            "int_padding": 355
-        },
-        "jVU1Bs": {
-            "name": [
-                "遠宗",
-                "원종 \\Wonjong"
-            ],
-            "secondaryName": false,
-            "num": "00",
-            "services": [
-                "local"
-            ],
-            "parents": [
-                "IW6Du1"
-            ],
-            "children": [
-                "hdVcug"
-            ],
-            "branch": {
-                "left": [],
-                "right": []
-            },
-            "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
-                "groups": [
-                    {
-                        "lines": []
-                    }
-                ]
-            },
-            "facility": "",
-            "loop_pivot": false,
-            "one_line": true,
-            "int_padding": 355
-        },
-        "hdVcug": {
-            "name": [
-                "富川综合运动场",
-                "부천종합운동장 \\Bucheon Stadium"
-            ],
-            "secondaryName": false,
-            "num": "00",
-            "services": [
-                "local"
-            ],
-            "parents": [
-                "jVU1Bs"
-            ],
-            "children": [
-                "rULbf_"
-            ],
-            "branch": {
-                "left": [],
-                "right": []
-            },
-            "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
-                "groups": [
-                    {
-                        "lines": [
-                            {
-                                "theme": [
-                                    "seoul",
-                                    "su7",
-                                    "#54640d",
-                                    "#fff"
-                                ],
-                                "name": [
-                                    "7호선",
+                                    "7号线",
                                     "Line 7"
                                 ]
                             }
                         ]
                     }
-                ]
+                ],
+                "tick_direc": "r",
+                "paid_area": true
             },
             "facility": "",
             "loop_pivot": false,
             "one_line": true,
             "int_padding": 355
         },
-        "foCv-Z": {
+        "Ov7tMc": {
             "name": [
-                "一山",
-                "일산 \\Ilsan"
+                "菱角湖",
+                "Lingjiaohu"
             ],
             "secondaryName": false,
             "num": "00",
@@ -837,33 +515,33 @@
                 "local"
             ],
             "parents": [
-                "linestart"
+                "EAOCMT"
             ],
             "children": [
-                "nbi5Zr"
+                "_mNYvp"
             ],
             "branch": {
                 "left": [],
                 "right": []
             },
             "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
                 "groups": [
                     {
                         "lines": []
                     }
-                ]
+                ],
+                "tick_direc": "r",
+                "paid_area": true
             },
             "facility": "",
             "loop_pivot": false,
             "one_line": true,
             "int_padding": 355
         },
-        "nbi5Zr": {
+        "_mNYvp": {
             "name": [
-                "枫山",
-                "풍산 \\Pungsan"
+                "范湖",
+                "Fanhu"
             ],
             "secondaryName": false,
             "num": "00",
@@ -871,33 +549,46 @@
                 "local"
             ],
             "parents": [
-                "foCv-Z"
+                "Ov7tMc"
             ],
             "children": [
-                "LG3Ten"
+                "U81XCC"
             ],
             "branch": {
                 "left": [],
                 "right": []
             },
             "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
                 "groups": [
                     {
-                        "lines": []
+                        "lines": [
+                            {
+                                "theme": [
+                                    "wuhan",
+                                    "wh2",
+                                    "#EB7CAF",
+                                    "#fff"
+                                ],
+                                "name": [
+                                    "2号线",
+                                    "Line 2"
+                                ]
+                            }
+                        ]
                     }
-                ]
+                ],
+                "tick_direc": "r",
+                "paid_area": true
             },
             "facility": "",
             "loop_pivot": false,
             "one_line": true,
             "int_padding": 355
         },
-        "LG3Ten": {
+        "U81XCC": {
             "name": [
-                "白马",
-                "백마 \\Baengma"
+                "云飞路",
+                "Yunfei Road"
             ],
             "secondaryName": false,
             "num": "00",
@@ -905,23 +596,449 @@
                 "local"
             ],
             "parents": [
-                "nbi5Zr"
+                "_mNYvp"
             ],
             "children": [
-                "k8hbcR"
+                "uPaLjE"
             ],
             "branch": {
                 "left": [],
                 "right": []
             },
             "transfer": {
-                "tick_direc": "r",
-                "paid_area": true,
                 "groups": [
                     {
                         "lines": []
                     }
-                ]
+                ],
+                "tick_direc": "r",
+                "paid_area": true
+            },
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 355
+        },
+        "uPaLjE": {
+            "name": [
+                "武汉商务区",
+                "Wuhan Business District"
+            ],
+            "secondaryName": false,
+            "num": "00",
+            "services": [
+                "local"
+            ],
+            "parents": [
+                "U81XCC"
+            ],
+            "children": [
+                "4RFmKi"
+            ],
+            "branch": {
+                "left": [],
+                "right": []
+            },
+            "transfer": {
+                "groups": [
+                    {
+                        "lines": [
+                            {
+                                "theme": [
+                                    "wuhan",
+                                    "wh7",
+                                    "#EB7900",
+                                    "#fff"
+                                ],
+                                "name": [
+                                    "7号线",
+                                    "Line 7"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "tick_direc": "r",
+                "paid_area": true
+            },
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 355
+        },
+        "4RFmKi": {
+            "name": [
+                "双墩",
+                "Shuangdun"
+            ],
+            "secondaryName": false,
+            "num": "00",
+            "services": [
+                "local"
+            ],
+            "parents": [
+                "uPaLjE"
+            ],
+            "children": [
+                "nr88AI"
+            ],
+            "branch": {
+                "left": [],
+                "right": []
+            },
+            "transfer": {
+                "groups": [
+                    {
+                        "lines": []
+                    }
+                ],
+                "tick_direc": "r",
+                "paid_area": true
+            },
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 355
+        },
+        "nr88AI": {
+            "name": [
+                "宗关",
+                "Zongguan"
+            ],
+            "secondaryName": false,
+            "num": "00",
+            "services": [
+                "local"
+            ],
+            "parents": [
+                "4RFmKi"
+            ],
+            "children": [
+                "hS_7bZ"
+            ],
+            "branch": {
+                "left": [],
+                "right": []
+            },
+            "transfer": {
+                "groups": [
+                    {
+                        "lines": [
+                            {
+                                "theme": [
+                                    "wuhan",
+                                    "wh1",
+                                    "#3D84C6",
+                                    "#fff"
+                                ],
+                                "name": [
+                                    "1号线",
+                                    "Line 1"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "tick_direc": "r",
+                "paid_area": true
+            },
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 355
+        },
+        "hS_7bZ": {
+            "name": [
+                "王家湾",
+                "Wangjiawan"
+            ],
+            "secondaryName": false,
+            "num": "00",
+            "services": [
+                "local"
+            ],
+            "parents": [
+                "nr88AI"
+            ],
+            "children": [
+                "Y1XMWh"
+            ],
+            "branch": {
+                "left": [],
+                "right": []
+            },
+            "transfer": {
+                "groups": [
+                    {
+                        "lines": [
+                            {
+                                "theme": [
+                                    "wuhan",
+                                    "wh4",
+                                    "#8EC720",
+                                    "#fff"
+                                ],
+                                "name": [
+                                    "4号线",
+                                    "Line 4"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "tick_direc": "r",
+                "paid_area": true
+            },
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 355
+        },
+        "Y1XMWh": {
+            "name": [
+                "龙阳村",
+                "Longyangcun"
+            ],
+            "secondaryName": false,
+            "num": "00",
+            "services": [
+                "local"
+            ],
+            "parents": [
+                "hS_7bZ"
+            ],
+            "children": [
+                "OoU1tU"
+            ],
+            "branch": {
+                "left": [],
+                "right": []
+            },
+            "transfer": {
+                "groups": [
+                    {
+                        "lines": []
+                    }
+                ],
+                "tick_direc": "r",
+                "paid_area": true
+            },
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 355
+        },
+        "OoU1tU": {
+            "name": [
+                "陶家岭",
+                "Taojialing"
+            ],
+            "secondaryName": false,
+            "num": "00",
+            "services": [
+                "local"
+            ],
+            "parents": [
+                "Y1XMWh"
+            ],
+            "children": [
+                "xJc268"
+            ],
+            "branch": {
+                "left": [],
+                "right": []
+            },
+            "transfer": {
+                "groups": [
+                    {
+                        "lines": []
+                    }
+                ],
+                "tick_direc": "r",
+                "paid_area": true
+            },
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 355
+        },
+        "xJc268": {
+            "name": [
+                "四新大道",
+                "Sixin Boulevard"
+            ],
+            "secondaryName": false,
+            "num": "00",
+            "services": [
+                "local"
+            ],
+            "parents": [
+                "OoU1tU"
+            ],
+            "children": [
+                "WYqaJd"
+            ],
+            "branch": {
+                "left": [],
+                "right": []
+            },
+            "transfer": {
+                "groups": [
+                    {
+                        "lines": []
+                    }
+                ],
+                "tick_direc": "r",
+                "paid_area": true
+            },
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 355
+        },
+        "WYqaJd": {
+            "name": [
+                "汉阳客运站",
+                "Hanyang Long-Distance Bus Station"
+            ],
+            "secondaryName": false,
+            "num": "00",
+            "services": [
+                "local"
+            ],
+            "parents": [
+                "xJc268"
+            ],
+            "children": [
+                "69rgJC"
+            ],
+            "branch": {
+                "left": [],
+                "right": []
+            },
+            "transfer": {
+                "groups": [
+                    {
+                        "lines": []
+                    }
+                ],
+                "tick_direc": "r",
+                "paid_area": true
+            },
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 355
+        },
+        "69rgJC": {
+            "name": [
+                "三角湾",
+                "Sanjiaowan"
+            ],
+            "secondaryName": false,
+            "num": "00",
+            "services": [
+                "local"
+            ],
+            "parents": [
+                "WYqaJd"
+            ],
+            "children": [
+                "RHNc5M"
+            ],
+            "branch": {
+                "left": [],
+                "right": []
+            },
+            "transfer": {
+                "groups": [
+                    {
+                        "lines": []
+                    }
+                ],
+                "tick_direc": "r",
+                "paid_area": true
+            },
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 355
+        },
+        "RHNc5M": {
+            "name": [
+                "体育中心",
+                "Sports Center"
+            ],
+            "secondaryName": false,
+            "num": "00",
+            "services": [
+                "local"
+            ],
+            "parents": [
+                "69rgJC"
+            ],
+            "children": [
+                "90KcLF"
+            ],
+            "branch": {
+                "left": [],
+                "right": []
+            },
+            "transfer": {
+                "groups": [
+                    {
+                        "lines": []
+                    }
+                ],
+                "tick_direc": "r",
+                "paid_area": true
+            },
+            "facility": "",
+            "loop_pivot": false,
+            "one_line": true,
+            "int_padding": 355
+        },
+        "90KcLF": {
+            "name": [
+                "东风公司",
+                "Dongfeng Motor Conporation"
+            ],
+            "secondaryName": false,
+            "num": "00",
+            "services": [
+                "local"
+            ],
+            "parents": [
+                "RHNc5M"
+            ],
+            "children": [
+                "WvFafl"
+            ],
+            "branch": {
+                "left": [],
+                "right": []
+            },
+            "transfer": {
+                "groups": [
+                    {
+                        "lines": [
+                            {
+                                "theme": [
+                                    "wuhan",
+                                    "wh6",
+                                    "#008536",
+                                    "#fff"
+                                ],
+                                "name": [
+                                    "6号线",
+                                    "Line 6"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "tick_direc": "r",
+                "paid_area": true
             },
             "facility": "",
             "loop_pivot": false,
@@ -937,29 +1054,13 @@
         "isLegacy": false,
         "terminal": false
     },
-    "line_num": "S",
+    "line_num": "1",
     "psd_num": "1",
-    "info_panel_type": "gz1",
+    "info_panel_type": "sh2020",
     "notesGZMTR": [],
     "direction_gz_x": 40,
     "direction_gz_y": 70,
-    "coline": {
-        "HEIX": {
-            "from": "foCv-Z",
-            "to": "6BmnCT",
-            "colors": [
-                [
-                    "seoul",
-                    "gj",
-                    "#72c7a6",
-                    "#fff",
-                    "경의·중앙선",
-                    "Gyeongui–Jungang Line"
-                ]
-            ],
-            "display": true
-        }
-    },
+    "coline": {},
     "loop": false,
     "loop_info": {
         "bank": true,
