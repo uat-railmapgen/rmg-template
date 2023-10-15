@@ -741,18 +741,12 @@
             "transfer": {
                 "groups": [
                     {
-                        "lines": []
-                    },
-                    {
-                        "lines": []
-                    },
-                    {
                         "lines": [
                             {
                                 "theme": [
                                     "other",
                                     "other",
-                                    "#72217c",
+                                    "#72217C",
                                     "#fff"
                                 ],
                                 "name": [
@@ -761,6 +755,12 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "lines": []
+                    },
+                    {
+                        "lines": []
                     }
                 ],
                 "tick_direc": "r",
@@ -834,20 +834,7 @@
                         "lines": []
                     },
                     {
-                        "lines": [
-                            {
-                                "theme": [
-                                    "other",
-                                    "other",
-                                    "#a60606",
-                                    "#fff"
-                                ],
-                                "name": [
-                                    "西咸智轨1号线",
-                                    "Xixian ART Line 1"
-                                ]
-                            }
-                        ]
+                        "lines": []
                     }
                 ],
                 "tick_direc": "r",
